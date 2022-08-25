@@ -1,0 +1,132 @@
+/*gainsboro*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}.container{
+    /*border: 1px solid black;*/
+    display: flex;
+}
+.leftBox{
+    background-color: gainsboro;
+    width: 260px;
+    padding: 10px;
+}
+.rightBox{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    width: 100%;
+}
+.user-image{
+    width: 160px;
+    height: 200px;
+    border-radius: 100%;
+}
+.name-con{
+    /*border: 1px solid black;*/
+    margin-top: 50px;
+}
+.name-con > h2{
+    font-family: 'Tiro Tamil', serif;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.name-con > h5{
+    text-transform: uppercase;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+.left-site-box{
+    /*border: 1px solid black;*/
+    color: black;
+    margin-top: 20px;
+}
+.left-site-box > h4{
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.contact-sup-con{
+    /*border: 1px solid black;*/
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.contact-sup-con > .icon-con{
+    width: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 10px;
+}
+.contact-sup-con > .text-con >h5{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.contact-sup-con > .text-con >p{
+    font-size: 15px;
+}
+.skills-sup-con >h5{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.per-con{
+    /*border: 1px solid black;*/
+    height: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.per{
+    background-color: black;
+    width: 90%;
+    height: 10px;
+}
+.follow-sup-con >h5{
+    font-size: 17px;
+
+}
+.follow-sup-con > p{
+    margin-bottom: 10px;
+}
+.right-site-title{
+    border-bottom: 1px solid black;
+    display: flex;
+    margin-top: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.right-site-title > .icon-con{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: gainsboro;
+    border-radius: 100%;
+}
+.right-site-title >h3{
+    line-height: 30px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.desc > .desc-title{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.edu{
+    /*border: 1px solid black;*/
+    padding: 10px;
+    text-align: justify;
+}
+.edu-1,.edu-2{
+    margin-top: 20px;
+}
+.pro{
+    padding: 10px;
+}
+.inter{
+    padding: 10px;
+}
